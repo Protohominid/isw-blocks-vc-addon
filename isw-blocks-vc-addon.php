@@ -39,7 +39,16 @@ if ( is_plugin_active( 'isw-blocks/isw-blocks.php' ) && is_plugin_active( 'js_co
 						'param_name' => 'id',
 						'value' => $blocks,
 						'description' => __( 'Choose previously created block from the drop down list.', 'js_composer' )
+					),
+/*
+					array(
+						'type' => 'checkbox',
+						'heading' => __( 'Display Block Title', 'js_composer' ),
+						'param_name' => 'display_title',
+						'value' => 0,
+						'description' => __( 'Whether to display the block\'s title above its content.', 'js_composer' )
 					)
+*/
 				)
 			)
 		);
